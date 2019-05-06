@@ -1,0 +1,4 @@
+2019-04-06 01:39:51 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.readProperties(PropertiesUtil.java:42) ]
+ERROR:读取配置文件异常！！
+2019-04-06 01:41:44 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.readProperties(PropertiesUtil.java:42) ]
+ERROR:读取配置文件异常！！

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mooctest">
+    <test verbose="2" preserve-order="true" name="D:/study/seleniumImooc">
+        <classes>
+            <class name="com.ggf.selenium.testcase.Login">
+                <methods>
+                    <include name="getLoginHome"/>
+                    <include name="testLogin"/>
+                    <include name="testAddCart"/>
+                    <include name="testSureOrder"/>
+                    <include name="testOrderPay"/>
+                    <include name="testStop"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

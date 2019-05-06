@@ -1,0 +1,888 @@
+2019-04-06 00:42:02 上午 [Thread: main][ Class:com.ggf.selenium.base.SelectDriver >> Method: com.ggf.selenium.base.SelectDriver.driverName(SelectDriver.java:21) ]
+DEBUG:当前使用的浏览器为【Chrome】
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:29361][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:29361][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]
+DEBUG:Opening connection {}->http://localhost:29361
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]
+DEBUG:Connecting to localhost/127.0.0.1:29361
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:138) ]
+DEBUG:Connection established 127.0.0.1:62055<->127.0.0.1:29361
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session HTTP/1.1
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session HTTP/1.1
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 122
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:29361
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:29361[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 00:42:05 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2019-04-06 00:48:46 上午 [Thread: main][ Class:com.ggf.selenium.base.SelectDriver >> Method: com.ggf.selenium.base.SelectDriver.driverName(SelectDriver.java:21) ]
+DEBUG:当前使用的浏览器为【Chrome】
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:41887][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:41887][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]
+DEBUG:Opening connection {}->http://localhost:41887
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]
+DEBUG:Connecting to localhost/127.0.0.1:41887
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:138) ]
+DEBUG:Connection established 127.0.0.1:62349<->127.0.0.1:41887
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session HTTP/1.1
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session HTTP/1.1
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 122
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:41887
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:41887[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 00:48:48 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:828[\r][\n]"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"ed4e8fa984b364f600c724faff4beda4","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)","userDataDir":"C:\\Users\\foresee\\AppData\\Local\\Temp\\scoped_dir9580_7603"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"69.0.3493.3","webStorageEnabled":true}}"
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:828
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:41887] can be kept alive indefinitely
+2019-04-06 00:48:53 上午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:41887][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 01:39:51 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.readProperties(PropertiesUtil.java:42) ]
+ERROR:读取配置文件异常！！
+2019-04-06 01:39:51 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.getProperties(PropertiesUtil.java:66) ]
+DEBUG:读取的【username】不存在！！
+2019-04-06 01:41:44 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.readProperties(PropertiesUtil.java:42) ]
+ERROR:读取配置文件异常！！
+2019-04-06 01:41:44 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.getProperties(PropertiesUtil.java:66) ]
+DEBUG:读取的【username】不存在！！
+2019-04-06 01:47:40 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.getProperties(PropertiesUtil.java:66) ]
+DEBUG:读取的【username】不存在！！
+2019-04-06 01:50:16 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.getProperties(PropertiesUtil.java:66) ]
+DEBUG:读取的【username】不存在！！
+2019-04-06 01:50:42 上午 [Thread: main][ Class:com.ggf.selenium.utils.PropertiesUtil >> Method: com.ggf.selenium.utils.PropertiesUtil.getProperties(PropertiesUtil.java:66) ]
+DEBUG:读取的【username】不存在！！
+2019-04-06 13:21:22 下午 [Thread: main][ Class:com.ggf.selenium.base.SelectDriver >> Method: com.ggf.selenium.base.SelectDriver.driverName(SelectDriver.java:21) ]
+DEBUG:当前使用的浏览器为【Chrome】
+2019-04-06 13:23:12 下午 [Thread: main][ Class:com.ggf.selenium.base.SelectDriver >> Method: com.ggf.selenium.base.SelectDriver.driverName(SelectDriver.java:21) ]
+DEBUG:当前使用的浏览器为【Chrome】
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]
+DEBUG:Opening connection {}->http://localhost:36688
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]
+DEBUG:Connecting to localhost/127.0.0.1:36688
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator >> Method: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:138) ]
+DEBUG:Connection established 127.0.0.1:55167<->127.0.0.1:36688
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session HTTP/1.1
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session HTTP/1.1
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 122
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:15 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:829[\r][\n]"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)","userDataDir":"C:\\Users\\foresee\\AppData\\Local\\Temp\\scoped_dir12364_9927"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"69.0.3493.3","webStorageEnabled":true}}"
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:829
+2019-04-06 13:23:19 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:20 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:20 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:20 下午 [Thread: Forwarding newSession on session null to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/url HTTP/1.1
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/url HTTP/1.1
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 45
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/url HTTP/1.1[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:20 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"url":"https://www.imooc.com/user/newlogin"}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":null}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:72
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding get on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 32
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"using":"name","value":"email"}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":{"ELEMENT":"0.33825897933082283-1"}}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:103
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request GET /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/displayed HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> GET /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/displayed HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Cache-Control: no-cache
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "GET /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/displayed HTTP/1.1[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":true}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:72
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding isElementDisplayed on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 32
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"using":"name","value":"email"}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":{"ELEMENT":"0.33825897933082283-1"}}"
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:103
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:24 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/value HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/value HTTP/1.1
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 59
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-1/value HTTP/1.1[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 59[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:24 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"id":"0.33825897933082283-1","value":["627317664@qq.com"]}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":null}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:72
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 35
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 35[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"using":"name","value":"password"}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":{"ELEMENT":"0.33825897933082283-2"}}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:103
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-2/value HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-2/value HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 49
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-2/value HTTP/1.1[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"id":"0.33825897933082283-2","value":["123ggf"]}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":null}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:72
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding sendKeysToElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 41
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element HTTP/1.1[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 41[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"using":"class name","value":"xa-login"}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":{"ELEMENT":"0.33825897933082283-3"}}"
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:103
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:25 下午 [Thread: Forwarding findElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAddCookies >> Method: org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]
+DEBUG:CookieSpec selected: default
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.client.protocol.RequestAuthCache >> Method: org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]
+DEBUG:Auth cache not set in the context
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]
+DEBUG:Connection request: [route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]
+DEBUG:Connection leased: [id: 0][route: {}->http://localhost:36688][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:207) ]
+DEBUG:Stale connection check
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.DefaultManagedHttpClientConnection >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.setSocketTimeout(LoggingManagedHttpClientConnection.java:90) ]
+DEBUG:http-outgoing-0: set socket timeout to 10800000
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255) ]
+DEBUG:Executing request POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-3/click HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260) ]
+DEBUG:Target auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266) ]
+DEBUG:Proxy auth state: UNCHALLENGED
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135) ]
+DEBUG:http-outgoing-0 >> POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-3/click HTTP/1.1
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Content-Length: 30
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Host: localhost:36688
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Connection: Keep-Alive
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138) ]
+DEBUG:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "POST /session/5bd44dfe3aa01b29b443f01fba91ae3e/element/0.33825897933082283-3/click HTTP/1.1[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Host: localhost:36688[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_102)[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 >> "[\r][\n]"
+2019-04-06 13:23:25 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 >> "{"id":"0.33825897933082283-3"}"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:72) ]
+DEBUG:http-outgoing-0 << "[\r][\n]"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.wire >> Method: org.apache.http.impl.conn.Wire.wire(Wire.java:86) ]
+DEBUG:http-outgoing-0 << "{"sessionId":"5bd44dfe3aa01b29b443f01fba91ae3e","status":0,"value":null}"
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124) ]
+DEBUG:http-outgoing-0 << HTTP/1.1 200 OK
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Length:72
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.headers >> Method: org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127) ]
+DEBUG:http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.execchain.MainClientExec >> Method: org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284) ]
+DEBUG:Connection can be kept alive indefinitely
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314) ]
+DEBUG:Connection [id: 0][route: {}->http://localhost:36688] can be kept alive indefinitely
+2019-04-06 13:23:26 下午 [Thread: Forwarding clickElement on session 5bd44dfe3aa01b29b443f01fba91ae3e to remote][ Class:org.apache.http.impl.conn.PoolingHttpClientConnectionManager >> Method: org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]
+DEBUG:Connection released: [id: 0][route: {}->http://localhost:36688][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
