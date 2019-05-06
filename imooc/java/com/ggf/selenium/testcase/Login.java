@@ -42,7 +42,7 @@ public class Login extends CaseBase{
      */
     @Test(dependsOnMethods = {"getLoginHome"})
     public void testLogin() {
-        lp.login("627317664@qq.com", "123ggf");
+        lp.login("", "");
         driver.loadWait(5);
     }
 
